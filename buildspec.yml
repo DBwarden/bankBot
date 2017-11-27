@@ -3,8 +3,8 @@ phases:
   install:
     commands:
       - npm install jasmine-node -g
-      - aws cloudformation package --template-file samTemplate.yaml --s3-bucket dalton-wt 
-                                   --output-template-file samTemplate.yaml
+      - aws cloudformation package --template-file samTemplate.yml --s3-bucket dalton-wt 
+                                   --output-template-file samTemplate.yml
   post_build:
     commands:
       - npm 
@@ -12,4 +12,4 @@ phases:
 artifacts:
   type: zip
   files:
-    - samTemplate.yaml
+    - samTemplate.yml
