@@ -361,7 +361,7 @@ function validatePayBills(billType) {
         console.log('validating pay bills');
         return buildValidationResult(false, 'BillType', `It does not look like you have a ${billType} bill with us. Please enter another bill.`);
     }
-    return buildValidationResult(true, null, null);
+    return  (true, null, null);
 }
 
 
