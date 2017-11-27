@@ -468,7 +468,7 @@ function balance(selectedAccount) {
     }
 }
 
-
+  
 function charge(selectedAccount) {
     switch (selectedAccount) {
         case "checking":
