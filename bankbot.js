@@ -38,7 +38,7 @@ function dispatch(intentRequest, callback) {
         throw new Error(`Intent with name ${intentName} not supported`);
     }
 } 
-      
+       
 // --------------- Main handler -----------------------
 
 // Route the incoming request based on intent.
