@@ -59,7 +59,7 @@ exports.handler = (event, context, callback) => {
     } catch (err) {
         callback(err);
     }
-};
+}; 
  
 // --------------- Functions that control the bot's behavior -----------------------
 
