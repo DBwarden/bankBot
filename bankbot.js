@@ -37,7 +37,7 @@ function dispatch(intentRequest, callback) {
     } else {
         throw new Error(`Intent with name ${intentName} not supported`);
     }
-}
+} 
 
 // --------------- Main handler -----------------------
 

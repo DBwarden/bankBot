@@ -1,11 +1,8 @@
 version: 0.2
 phases:
-  install:
+  pre_build:
     commands:
-      - npm install jasmine-node -g
-      - aws cloudformation package --template-file samTemplate.yml --s3-bucket dalton-wt 
-                                   --output-template-file samTemplate.yml
-                                  
+           -npm install                 
 artifacts:
   type: zip
   files:

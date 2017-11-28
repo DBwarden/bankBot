@@ -6,12 +6,7 @@ Resources:
   TimeFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: bankbot.js
       Runtime: nodejs6.10
       CodeUri: ./
-      Events:
-        MyTimeApi:
-          Type: Api
-          Properties:
-            Path: /TimeResource
-            Method: GET
+      
