@@ -342,7 +342,7 @@ function thanks(intent_request) {
     };
 
 }
-
+  
 //------------------Functions that validate slots-----------------------------------
 
 
